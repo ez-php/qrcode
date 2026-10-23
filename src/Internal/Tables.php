@@ -42,11 +42,17 @@ final class Tables
         'H' => [0, 1, 1, 2, 4, 4, 4, 5, 6, 8, 8, 11, 11, 16, 16, 18, 16, 19, 21, 25, 25, 25, 34, 30, 32, 35, 37, 40, 42, 45, 48, 51, 54, 57, 60, 63, 66, 70, 74, 77, 81],
     ];
 
+    /**
+     * Error-correction codewords in each block of a symbol (ISO/IEC 18004 table 9).
+     */
     public static function eccPerBlock(int $version, ErrorCorrectionLevel $level): int
     {
         return self::ECC_PER_BLOCK[$level->value][$version];
     }
 
+    /**
+     * Number of error-correction blocks a symbol's codewords are split into (ISO/IEC 18004 table 9).
+     */
     public static function numBlocks(int $version, ErrorCorrectionLevel $level): int
     {
         return self::NUM_BLOCKS[$level->value][$version];
