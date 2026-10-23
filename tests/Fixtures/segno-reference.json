@@ -1,0 +1,822 @@
+[
+ {
+  "data": "HELLO",
+  "level": "M",
+  "forcedVersion": 1,
+  "forcedMask": 1,
+  "version": 1,
+  "mask": 1,
+  "mode": "alphanumeric",
+  "sha256": "674e67033af30dc396e76fcfa79865db347f8722180219808d0a4a06f0f06dea"
+ },
+ {
+  "data": "otpau",
+  "level": "Q",
+  "forcedVersion": 2,
+  "forcedMask": 2,
+  "version": 2,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "56c57fc39cbb4461b6904d22037911d16889971b4dfe4f73fae5e0ed16071d2d"
+ },
+ {
+  "data": "0123456789",
+  "level": "H",
+  "forcedVersion": 3,
+  "forcedMask": 3,
+  "version": 3,
+  "mask": 3,
+  "mode": "numeric",
+  "sha256": "8b3f19942e83ea4eacc035d7add262b79364bb2ebeee57ea64a49da94fe53efa"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "L",
+  "forcedVersion": 4,
+  "forcedMask": 4,
+  "version": 4,
+  "mask": 4,
+  "mode": "alphanumeric",
+  "sha256": "62b61ffef62984df70de55798882d8232260ea455f0afa859b59d27206a22a60"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "M",
+  "forcedVersion": 5,
+  "forcedMask": 5,
+  "version": 5,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "c412bcb74d6d77020896024d8ef9e6629d4b83ba928dfdf73d0bdcff9f5ee8b0"
+ },
+ {
+  "data": "0123456789",
+  "level": "Q",
+  "forcedVersion": 6,
+  "forcedMask": 6,
+  "version": 6,
+  "mask": 6,
+  "mode": "numeric",
+  "sha256": "f6912048b48a9f22075f033517038db6f27b1c820a79c99d7a95c2a416455eb1"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 7,
+  "version": 7,
+  "mask": 7,
+  "mode": "alphanumeric",
+  "sha256": "bcf2ebd34f255a39098b7532250f440b850dff0f1bda598471a1112b59d96fd9"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "L",
+  "forcedVersion": 8,
+  "forcedMask": 0,
+  "version": 8,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "2ba26ccb85b75a0cff3bd8d89e02f3d629879b40c8afeb41120ff4be078b031e"
+ },
+ {
+  "data": "0123456789",
+  "level": "M",
+  "forcedVersion": 9,
+  "forcedMask": 1,
+  "version": 9,
+  "mask": 1,
+  "mode": "numeric",
+  "sha256": "7090e480dd65e205fffa8bc4e2b72f98fa41fef4ab259c17c48f78f5bb85e6fc"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "Q",
+  "forcedVersion": 10,
+  "forcedMask": 2,
+  "version": 10,
+  "mask": 2,
+  "mode": "alphanumeric",
+  "sha256": "cbb8ab38173ce470d716d33367adc70349e2f8525c40e3e93de8a7775cfa5d2c"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "H",
+  "forcedVersion": 11,
+  "forcedMask": 3,
+  "version": 11,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "68697af0c369ffd5f3e42e75cf327dd3bbadbb7b4c4f369990d2dc002a6ccf83"
+ },
+ {
+  "data": "0123456789",
+  "level": "L",
+  "forcedVersion": 12,
+  "forcedMask": 4,
+  "version": 12,
+  "mask": 4,
+  "mode": "numeric",
+  "sha256": "4e9787e28bfa88e1a93e4a3a4421be70503c285aaa5d6222ac430e72e9f85b78"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "M",
+  "forcedVersion": 13,
+  "forcedMask": 5,
+  "version": 13,
+  "mask": 5,
+  "mode": "alphanumeric",
+  "sha256": "c962c4bf3136d3e311634a7610759e81502c099213d85c64af3d4abf6b423903"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "Q",
+  "forcedVersion": 14,
+  "forcedMask": 6,
+  "version": 14,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "3d459d93d8123489539f99382a1a2aa7f4b7c4fce383b4a37046a13576a5f210"
+ },
+ {
+  "data": "0123456789",
+  "level": "H",
+  "forcedVersion": 15,
+  "forcedMask": 7,
+  "version": 15,
+  "mask": 7,
+  "mode": "numeric",
+  "sha256": "f32e820913b23d2ce4ed870e69f1edb3d2ff0b52faecc0ff978b98193cfff62f"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "L",
+  "forcedVersion": 16,
+  "forcedMask": 0,
+  "version": 16,
+  "mask": 0,
+  "mode": "alphanumeric",
+  "sha256": "41c4b11a10bfbdc6cc51273ce1e99ff09a3d22eff888e77f63530caba7eecb63"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "M",
+  "forcedVersion": 17,
+  "forcedMask": 1,
+  "version": 17,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "b91c93cef4bbc114426956c7187531614021d506c8f6fdfc803ea8e5baaa6f4a"
+ },
+ {
+  "data": "0123456789",
+  "level": "Q",
+  "forcedVersion": 18,
+  "forcedMask": 2,
+  "version": 18,
+  "mask": 2,
+  "mode": "numeric",
+  "sha256": "93df8c9b6ad9666638930d45f5a1f4ac7e1340ceff09da42777eed80f190ff44"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "H",
+  "forcedVersion": 19,
+  "forcedMask": 3,
+  "version": 19,
+  "mask": 3,
+  "mode": "alphanumeric",
+  "sha256": "afebc7dd6948f221467279403f2a1d2f0edf9d2d216fc000c098e551dd01ca40"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "L",
+  "forcedVersion": 20,
+  "forcedMask": 4,
+  "version": 20,
+  "mask": 4,
+  "mode": "byte",
+  "sha256": "ef5a5dce3074062e7c8044cbb668c3d4e9506eaf2903272238521f53855d4e82"
+ },
+ {
+  "data": "0123456789",
+  "level": "M",
+  "forcedVersion": 21,
+  "forcedMask": 5,
+  "version": 21,
+  "mask": 5,
+  "mode": "numeric",
+  "sha256": "bda9c6424c858b7d1f278933739821a9443d2b412581ddd604588500006bd8e8"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "Q",
+  "forcedVersion": 22,
+  "forcedMask": 6,
+  "version": 22,
+  "mask": 6,
+  "mode": "alphanumeric",
+  "sha256": "fa54a46d6e135dbe95932cfcb3154d0937a5ed15c39bf692625c7146f95a141f"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "H",
+  "forcedVersion": 23,
+  "forcedMask": 7,
+  "version": 23,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "8e2ee1447291e46c0214ca0f590aac3a499cf2f67b5c1b5e929c9b68b33ef958"
+ },
+ {
+  "data": "0123456789",
+  "level": "L",
+  "forcedVersion": 24,
+  "forcedMask": 0,
+  "version": 24,
+  "mask": 0,
+  "mode": "numeric",
+  "sha256": "21701694021e5a022ab3b273390014006858fe653a30e771e4167a767ce244ff"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "M",
+  "forcedVersion": 25,
+  "forcedMask": 1,
+  "version": 25,
+  "mask": 1,
+  "mode": "alphanumeric",
+  "sha256": "69bef1ff1e357646bba4fbef3305e28d8a49e387fb02cf3aed6f737d5f9fad3a"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "Q",
+  "forcedVersion": 26,
+  "forcedMask": 2,
+  "version": 26,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "7c6a874f645decccca4f03106b4358012f51512ecd7aef000e285d24f2402f8c"
+ },
+ {
+  "data": "0123456789",
+  "level": "H",
+  "forcedVersion": 27,
+  "forcedMask": 3,
+  "version": 27,
+  "mask": 3,
+  "mode": "numeric",
+  "sha256": "ac512b6a129b777da3da6f74539f9ea6582783b2bac6850262c41db0d8d2d357"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "L",
+  "forcedVersion": 28,
+  "forcedMask": 4,
+  "version": 28,
+  "mask": 4,
+  "mode": "alphanumeric",
+  "sha256": "ae35862433c85dd79dc5159738a5e632d8f57f37834df08856dd95edd9872ef6"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "M",
+  "forcedVersion": 29,
+  "forcedMask": 5,
+  "version": 29,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "400a8b59e55dbbba4961483c87e0c085f0e2594a6ba07cc540e61035bba55bef"
+ },
+ {
+  "data": "0123456789",
+  "level": "Q",
+  "forcedVersion": 30,
+  "forcedMask": 6,
+  "version": 30,
+  "mask": 6,
+  "mode": "numeric",
+  "sha256": "e8c90f5203251a38dec6fa1e5d0c43dea8cf9335c15d2fb398793f86e0b74813"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "H",
+  "forcedVersion": 31,
+  "forcedMask": 7,
+  "version": 31,
+  "mask": 7,
+  "mode": "alphanumeric",
+  "sha256": "3b4d6039d59fd104a4315bc307eb2e2a4f2c13cd9d73a817cbbfcadc1bde382e"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "L",
+  "forcedVersion": 32,
+  "forcedMask": 0,
+  "version": 32,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "2bb8411aa0298042ffc7600db324d3269437c9045111070e0140c6393e881559"
+ },
+ {
+  "data": "0123456789",
+  "level": "M",
+  "forcedVersion": 33,
+  "forcedMask": 1,
+  "version": 33,
+  "mask": 1,
+  "mode": "numeric",
+  "sha256": "0f2f2d9270771ffcce31457d109bef7700226705a178742927fcaaed8d577b86"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "Q",
+  "forcedVersion": 34,
+  "forcedMask": 2,
+  "version": 34,
+  "mask": 2,
+  "mode": "alphanumeric",
+  "sha256": "8b6625f8899ee41caf34db33e140c0e0805c3f5bb83b2f3e12493e500983bce7"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "H",
+  "forcedVersion": 35,
+  "forcedMask": 3,
+  "version": 35,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "b43820fbdee33772583402a52f156e010f441ab488b4a78c77cd8a921bac528e"
+ },
+ {
+  "data": "0123456789",
+  "level": "L",
+  "forcedVersion": 36,
+  "forcedMask": 4,
+  "version": 36,
+  "mask": 4,
+  "mode": "numeric",
+  "sha256": "1b2f0fe99ce52d28855a6642e0cc1c075379fb6425f6c6d1ac6fb203a636f938"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "M",
+  "forcedVersion": 37,
+  "forcedMask": 5,
+  "version": 37,
+  "mask": 5,
+  "mode": "alphanumeric",
+  "sha256": "093fbebdff324fe717972010985869506f8b816cdf9d4c1fc458318baea8a335"
+ },
+ {
+  "data": "otpauth://totp/Ex:alice?secret=JBSWY3DPEHPK3PXP",
+  "level": "Q",
+  "forcedVersion": 38,
+  "forcedMask": 6,
+  "version": 38,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "aa4dde6f759f856cce4aa153c3dc3df8e175d767fb117cf15415cb4825062011"
+ },
+ {
+  "data": "0123456789",
+  "level": "H",
+  "forcedVersion": 39,
+  "forcedMask": 7,
+  "version": 39,
+  "mask": 7,
+  "mode": "numeric",
+  "sha256": "955bc11ae564f949c1de410d30dfe4befd066a3d06c00ac5ce20ae20db6432b9"
+ },
+ {
+  "data": "HELLO WORLD $%*+-./:",
+  "level": "L",
+  "forcedVersion": 40,
+  "forcedMask": 0,
+  "version": 40,
+  "mask": 0,
+  "mode": "alphanumeric",
+  "sha256": "71aa9f415e178cb56ce2cab25155ea9bd4acac6a359a5692fd450827c67a665b"
+ },
+ {
+  "data": "ez-php QR L0",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 0,
+  "version": 7,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "da0f0a4cd827566f2164b153198de63bb40e0a7b541d1b69d2c7a23b41810d98"
+ },
+ {
+  "data": "ez-php QR L1",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 1,
+  "version": 7,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "e97007c126319cc2a8d74f8b7c3fd4498f62eff05e2121e1e2c7246eb58612a8"
+ },
+ {
+  "data": "ez-php QR L2",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 2,
+  "version": 7,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "9b93857f60bffd1963aae0aa6c982a4b252caf6166be0f6bc8c473dafcf5f759"
+ },
+ {
+  "data": "ez-php QR L3",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 3,
+  "version": 7,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "eca6f1150474ad19fbe3b9569492bf451373bf2438e93ff2c79d3e8e0eeba592"
+ },
+ {
+  "data": "ez-php QR L4",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 4,
+  "version": 7,
+  "mask": 4,
+  "mode": "byte",
+  "sha256": "7a49b7a60bfb7d99a6acb7131c85d0ee2ecd0f8cda7749e71b70176669024730"
+ },
+ {
+  "data": "ez-php QR L5",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 5,
+  "version": 7,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "73f2dc5e3595ef798a929a08382116ed0bcf74885ca7ea67760e14d5e93307a4"
+ },
+ {
+  "data": "ez-php QR L6",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 6,
+  "version": 7,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "cc7fc2baea146541c1473cf2183c1e7fb7250ea4051835286d298e58fa90f438"
+ },
+ {
+  "data": "ez-php QR L7",
+  "level": "L",
+  "forcedVersion": 7,
+  "forcedMask": 7,
+  "version": 7,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "cd3d90c0fdc09ff7b4a31fef6db88d3e016c25e3c965d958f0958be32faf86ec"
+ },
+ {
+  "data": "ez-php QR M0",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 0,
+  "version": 7,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "9808935a8bd70a7498d8d180c3d97f5bf5c1f0622466a47bf8e30595ae181e4a"
+ },
+ {
+  "data": "ez-php QR M1",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 1,
+  "version": 7,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "4c7afabed6771ac161379eb73dd92d27acb40a786c8086349917bab2ac0810e7"
+ },
+ {
+  "data": "ez-php QR M2",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 2,
+  "version": 7,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "efe5d24d6136c100b20bb079c142c6af8aad2748ff22c3ef7b69ecb7614dc4dc"
+ },
+ {
+  "data": "ez-php QR M3",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 3,
+  "version": 7,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "bca5b44760fad1a3cf012c53face36647ec427fc9ad43e7b83098af10ea87ba0"
+ },
+ {
+  "data": "ez-php QR M4",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 4,
+  "version": 7,
+  "mask": 4,
+  "mode": "byte",
+  "sha256": "8715060d2cd6209cecca5e88f676170271ed407560e7220f1ccec842ca8465ea"
+ },
+ {
+  "data": "ez-php QR M5",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 5,
+  "version": 7,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "fe27c5011b0d11413bbe45707e18b30da2ee445b64ec26d18a29d233375a34bb"
+ },
+ {
+  "data": "ez-php QR M6",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 6,
+  "version": 7,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "5d4380644b134ed6b7df27d899c86fc2d1d6374617109ae7b5f451f7d1024cd4"
+ },
+ {
+  "data": "ez-php QR M7",
+  "level": "M",
+  "forcedVersion": 7,
+  "forcedMask": 7,
+  "version": 7,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "7b522929dc733066bf7a2cad2b3997d2c4a0261f9460e4423a4856e5265d165f"
+ },
+ {
+  "data": "ez-php QR Q0",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 0,
+  "version": 7,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "fc98a620e586f75c3aedc8cf746f7f36a81f5d8dcb61e81c868e075a15529102"
+ },
+ {
+  "data": "ez-php QR Q1",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 1,
+  "version": 7,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "d4cf0834dd3d75d414b7e03f2ca5a06e9e28f71007d720cd431782189c99f77f"
+ },
+ {
+  "data": "ez-php QR Q2",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 2,
+  "version": 7,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "7b2b614528868c1d2753621f43348778ffa711c0c7ebd60d78fa15855f7e5ae3"
+ },
+ {
+  "data": "ez-php QR Q3",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 3,
+  "version": 7,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "819de216ef8c308b434d54d699d5cc276d3a74259ddea11aeff536323677ca43"
+ },
+ {
+  "data": "ez-php QR Q4",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 4,
+  "version": 7,
+  "mask": 4,
+  "mode": "byte",
+  "sha256": "32afbeb76ad14e52b17c6c9fbe013439ba22efd880f5104f762fc54532326302"
+ },
+ {
+  "data": "ez-php QR Q5",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 5,
+  "version": 7,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "cce618001160192a8dde7ecd1bd7e9c9489ebdec825a5a1b2b9eccc2080be3cf"
+ },
+ {
+  "data": "ez-php QR Q6",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 6,
+  "version": 7,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "624fff4841ad60d229eead51ec7c897557affae28f19278df7bbc8820c7ac07d"
+ },
+ {
+  "data": "ez-php QR Q7",
+  "level": "Q",
+  "forcedVersion": 7,
+  "forcedMask": 7,
+  "version": 7,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "dbf34ef0825e324629a15e4723dd564be92ed28b9b8fc5293b93d62de1985cd7"
+ },
+ {
+  "data": "ez-php QR H0",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 0,
+  "version": 7,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "1e18611102303851ed2f8a11a57c5471ac0c7597532cfaa7ed7fb7bba88b35b3"
+ },
+ {
+  "data": "ez-php QR H1",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 1,
+  "version": 7,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "549c1d3951459612b438418f1906980e9e12b46331f13dfdcc8e1428e217967a"
+ },
+ {
+  "data": "ez-php QR H2",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 2,
+  "version": 7,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "36f8dfa7bab267e8cee89421fe64d055985d719ee5baa66d02f5f6de3c015652"
+ },
+ {
+  "data": "ez-php QR H3",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 3,
+  "version": 7,
+  "mask": 3,
+  "mode": "byte",
+  "sha256": "7d92dc72062f3857d47dd8bc93bdfb266c7af4657dfbdd45bd6753d76777394b"
+ },
+ {
+  "data": "ez-php QR H4",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 4,
+  "version": 7,
+  "mask": 4,
+  "mode": "byte",
+  "sha256": "692373c5b1a2a0f89ff9b44bc8b2715b39617fa12646b270ab7da4f82756987d"
+ },
+ {
+  "data": "ez-php QR H5",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 5,
+  "version": 7,
+  "mask": 5,
+  "mode": "byte",
+  "sha256": "72a0d4d855a85f0c8d0d11f0b852bad1949d099935d7acfd59f1e5dda7d9e9bc"
+ },
+ {
+  "data": "ez-php QR H6",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 6,
+  "version": 7,
+  "mask": 6,
+  "mode": "byte",
+  "sha256": "c92e38d37ac8ae2dca4aceb76457d77cca6391f079cbb6800fdbbac572341727"
+ },
+ {
+  "data": "ez-php QR H7",
+  "level": "H",
+  "forcedVersion": 7,
+  "forcedMask": 7,
+  "version": 7,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "68267df2e266a0ac080c05b46e2cb866b9a8da6bf675dab09fe786c3c1de6f91"
+ },
+ {
+  "data": "1",
+  "level": "L",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 1,
+  "mask": 4,
+  "mode": "numeric",
+  "sha256": "a834c00dba4960e42c218a231ed5285b7ca22080c9264ab0b68b5ac71b73277b"
+ },
+ {
+  "data": "12345678901234567890",
+  "level": "M",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 1,
+  "mask": 4,
+  "mode": "numeric",
+  "sha256": "d6cc0e93bf44fdca66b2e71f28b4e57deb639046a8f8b75b3b8ebd3f7177c2ae"
+ },
+ {
+  "data": "HELLO WORLD",
+  "level": "Q",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 1,
+  "mask": 1,
+  "mode": "alphanumeric",
+  "sha256": "9e1a2e4bb77f9908f8150a42cf275dfa0a9381ba05fe4b4ef3878253ce7ad5c7"
+ },
+ {
+  "data": "https://example.com/?a=1&b=2",
+  "level": "H",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 4,
+  "mask": 2,
+  "mode": "byte",
+  "sha256": "653b8fb25d6da2256e423126f214fc9efce2ff774730f3549318d1bee6f2dbfa"
+ },
+ {
+  "data": "otpauth://totp/Example:alice@example.com?secret=JBSWY3DPEHPK3PXP&issuer=Example",
+  "level": "L",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 5,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "28045a42c27f065576b612488f3f6fa33f7083e77ac94ad8360789e3e1c12042"
+ },
+ {
+  "data": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "level": "M",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 13,
+  "mask": 0,
+  "mode": "byte",
+  "sha256": "a6c4c99a50e77d18b6ddfdcbd85fffbd3b4da81e4eabc96b030a3f559d2b7fbb"
+ },
+ {
+  "data": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+  "level": "Q",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 24,
+  "mask": 0,
+  "mode": "numeric",
+  "sha256": "38260ce2714d2ceff55a046989a0c006cdc173b4154787576d832e2b6d0b8e15"
+ },
+ {
+  "data": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "level": "H",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 30,
+  "mask": 3,
+  "mode": "alphanumeric",
+  "sha256": "815844fcbfe8f8910f8ec7b813135d1a9ace095cd604e35b850b418d0cd386d1"
+ },
+ {
+  "data": "ümlaut ✓",
+  "level": "L",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 1,
+  "mask": 7,
+  "mode": "byte",
+  "sha256": "3eb9ee242610a176a8b303673a1def8769550a733858c407dead1807c3f81a26"
+ },
+ {
+  "data": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "level": "M",
+  "forcedVersion": null,
+  "forcedMask": null,
+  "version": 38,
+  "mask": 1,
+  "mode": "byte",
+  "sha256": "e00b2133c9ff4e0a4d0ac0b3e1a1e5a40a7d8ead03892ab73ba4b9cadf101a8e"
+ }
+]
