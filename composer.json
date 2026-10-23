@@ -1,6 +1,6 @@
 {
   "name": "ez-php/qrcode",
-  "version": "2.5.10",
+  "version": "2.6.0",
   "description": "Dependency-free QR code encoder (numeric/alphanumeric/byte, versions 1-40, ECC L/M/Q/H) with SVG and PNG (ext-gd) renderers",
   "type": "library",
   "license": "MIT",
